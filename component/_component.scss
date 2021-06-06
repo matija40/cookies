@@ -1,0 +1,32 @@
+*,*::after,*::before{
+    margin: $margin_reset;
+    padding: $padding_reset;
+    box-sizing: $box_size;
+}
+body{
+    @include body();
+}
+ .container{
+     @include container()
+ }
+
+ .container .box__1{
+     @include box1();
+ }
+ .container .box__2{
+    @include box2();
+ }
+ .container .box__3{
+    
+    @include box3();
+
+ }
+ .container .box__4{
+    @include box4();
+ }
+ .container .box__5{
+    @include box5();
+ }
+ .container .box__5 button{
+     @include button();
+ }

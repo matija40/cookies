@@ -1,0 +1,48 @@
+@mixin body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+@mixin container {
+     width: 400px;
+     height: 500px;
+     background-color: white;
+     box-shadow: 2px 4px 26px gray
+}
+@mixin box1 {
+    font-weight: bolder;
+    text-align: end;
+    padding: 15px;
+}
+@mixin box2 {
+    background-image: url(../slike/cake-2916289_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: center;
+    height: 150px;
+}
+@mixin box3 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 4rem;
+}
+@mixin box4 {
+    width: calc(100% / 2.5);
+    margin: 0 auto;
+}
+@mixin box5 {
+    padding: 50px;
+}
+@mixin button {
+     display: block;
+     margin: 0 auto;
+     border-radius: 15px;
+     padding: 10px;
+     border:none;
+     background-color: black;
+     color: white;
+
+}
